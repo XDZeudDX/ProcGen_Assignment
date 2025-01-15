@@ -14,6 +14,35 @@ private void OnTriggerEnter(Collider other)
 
         Debug.Log($"Destroyed: {other.gameObject.name}");
     }
+
+        if(other.CompareTag("Pine"))
+    {
+        Destroy(other.gameObject);
+
+        Debug.Log($"Destroyed: {other.gameObject.name}");
+    }
+
+        if(other.CompareTag("Tree"))
+    {
+        Destroy(other.gameObject);
+
+        Debug.Log($"Destroyed: {other.gameObject.name}");
+    }
+
+        if(other.CompareTag("Shrub"))
+    {
+        Destroy(other.gameObject);
+
+        Debug.Log($"Destroyed: {other.gameObject.name}");
+    }
+
+        if(other.CompareTag("Flower"))
+    {
+        Destroy(other.gameObject);
+
+        Debug.Log($"Destroyed: {other.gameObject.name}");
+    }
+
 }
 
 }

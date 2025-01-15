@@ -26,6 +26,12 @@ public class SectionTrigger : MonoBehaviour
             Debug.Log("New floor spawned and trigger moved!");
         }
 
+        if(other.CompareTag("Spawner"))
+        {
+            other.transform.position += moveDistance;
+            
+        }
+
         
     }
 }

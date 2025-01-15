@@ -13,6 +13,11 @@ TagManager:
   - DestroyNegX
   - DestroyPosZ
   - DestroyNegZ
+  - Pine
+  - Tree
+  - Shrub
+  - Flower
+  - Spawner
   layers:
   - Default
   - TransparentFX
