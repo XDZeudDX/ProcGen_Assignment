@@ -1,5 +1,14 @@
 {
   "dependencies": {
+    "com.de-panther.webxr": {
+      "version": "0.22.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.xr.management": "3.2.13"
+      },
+      "url": "https://package.openupm.com"
+    },
     "com.unity.collab-proxy": {
       "version": "2.6.0",
       "depth": 0,
